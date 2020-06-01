@@ -1,13 +1,9 @@
-# NeuSense-Trial
+# Auditory Illusions
 
-Year 3 Group Project - User Interface for Demonstration of Auditory Illusions
+Year 3 Group Project - User Interface for the Demonstration of Auditory Illusions
 
-1. Home page: Title of our project, "logo", and button to explore work
+1. Description of auditory illusions with audio examples
 
-2. Overview of all illusions (tiles page): Tiles for each illusion with (maybe) a summary of what they are. Goes to illusion page upon clicking
+2. Poll to collect user responses
 
-3. Each illusion page: Title of illusion, description of illusion, poll, and on top a menu including a drop-down menu to select other illusions
-
-4. Overview of all statistics: Graphs of everything
-
-5. Team page: Our group!!
+3. Display of users statistics to compare different users' perceptions
