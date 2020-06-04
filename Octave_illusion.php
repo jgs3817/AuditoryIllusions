@@ -73,7 +73,7 @@
                 Other people report hearing different patterns, such as a periodic reversal of tones in each ear; studies show that left handed people are more likely to experience these variations<sup>1</sup>.
                 <br>
                 <br>
-                <!--The real sound pattern is presented below along with the most common perception. 
+                The real sound pattern is presented below along with the most common perception. 
                 <br>
                 <br>
                 <figure>
@@ -84,7 +84,7 @@
                 One hypothesis is that the illusion utilises the ‘what’ and ‘where’ pathways in the brain. The dominant ear determines the pitch of the perceived tone (for example, a high tone heard in the right ear) - the ‘what’ pathway. The ear that receives the high tone determines the location of the sound (in this example the tone would be localised to the right) - the ‘where’ pathway<sup>2</sup>.
                 <br>
                 <br>
-                <br>-->
+                <br>
                 <b>Is this used anywhere?</b>
                 <br>
                 <br>
@@ -171,8 +171,8 @@
                         function drawChart() {
                             var data = google.visualization.arrayToDataTable([
                             ['Results', 'Responses'],
-                            ['Left', <?php echo $left; ?>],
-                            ['Right', <?php echo $right; ?>],
+                            ['Left ear', <?php echo $left; ?>],
+                            ['Right ear', <?php echo $right; ?>],
                             ['Unclear', <?php echo $unclear; ?>]
                             ]);
 

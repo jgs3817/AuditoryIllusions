@@ -53,7 +53,7 @@
             <p> 
             <b>What is it?</b>
             <br>
-            The mysterious melody illusion was first discovered in 1972 by Diana Deutsch. <sup>1</sup>
+            The mysterious melody illusion was first discovered in 1972 by Diana Deutsch<sup>1</sup>. 
             A familiar tune was modified so that the notes were randomly scattered between three different octaves. 
             This made the tune difficult to identify, however once told the name of the tune listeners could recognise it easily. 
             Listen to our recreation of the illusion here.
