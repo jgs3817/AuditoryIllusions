@@ -147,7 +147,7 @@
         </div>
 
         <div class="poll">
-                <span>In which ear do you hear the high tones?</span><br>
+                <span><br>In which ear do you hear the high tones?</span><br>
                 <form action="oi.php" method="POST">
                     <input type="radio" name="oi" value="0" id="left" required>
                     <label for="left">Left ear</label><br>
@@ -171,8 +171,8 @@
                         function drawChart() {
                             var data = google.visualization.arrayToDataTable([
                             ['Results', 'Responses'],
-                            ['Left', <?php echo $left; ?>],
-                            ['Right', <?php echo $right; ?>],
+                            ['Left ear', <?php echo $left; ?>],
+                            ['Right ear', <?php echo $right; ?>],
                             ['Unclear', <?php echo $unclear; ?>]
                             ]);
 
