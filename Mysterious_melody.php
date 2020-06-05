@@ -36,7 +36,7 @@
                 <a href="Timbre_illusion.html">Timbre Illusion</a>
                 <a href="DPOAE.html">DPOAE</a>
                 <a href="Continuity_illusion.html">Continuity Illusion</a>
-                <a href="Timing_seq.html">Timing and Sequence Illusion</a>
+                <a href="Timing_seq.html">Timing and Sequence Perception</a>
                 <a href="Galloping.html">Galloping Rhythm</a>
                 <a href="Interleaved_melodies.php">Interleaved Melodies</a>
                 <a href="Binaural_beats.html">Binaural Beats</a>
@@ -53,7 +53,7 @@
             <p> 
             <b>What is it?</b>
             <br>
-            The mysterious melody illusion was first discovered in 1972 by Diana Deutsch<sup>1</sup>. 
+            The mysterious melody illusion was first discovered in 1972 by Diana Deutsch. <sup>1</sup>
             A familiar tune was modified so that the notes were randomly scattered between three different octaves. 
             This made the tune difficult to identify, however once told the name of the tune listeners could recognise it easily. 
             Listen to our recreation of the illusion here.
