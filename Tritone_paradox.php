@@ -128,25 +128,25 @@
 
         <div class="poll">
             <form action="tp.php" method="POST">
-                <span>Tone 1:</span><br>
+                <span>Tritone set 1:</span><br>
                 <input type="radio" name="tp1" value="0" id="tp1a" required>
                 <label for="tp1a">Ascending</label><br>
                 <input type="radio" name="tp1" value="1" id="tp1d">
                 <label for="tp1d">Descending</label><br>
                 <br>
-                <span>Tone 2:</span><br>
+                <span>Tritone set 2:</span><br>
                 <input type="radio" name="tp2" value="2" id="tp2a" required>
                 <label for="tp2a">Ascending</label><br>
                 <input type="radio" name="tp2" value="3" id="tp2d">
                 <label for="tp2d">Descending</label><br>
                 <br>
-                <span>Tone 3:</span><br>
+                <span>Tritone set 3:</span><br>
                 <input type="radio" name="tp3" value="4" id="tp3a" required>
                 <label for="tp3a">Ascending</label><br>
                 <input type="radio" name="tp3" value="5" id="tp3d">
                 <label for="tp3d">Descending</label><br>
                 <br>
-                <span>Tone 4:</span><br>
+                <span>Tritone set 4:</span><br>
                 <input type="radio" name="tp4" value="6" id="tp4a" required>
                 <label for="tp4a">Ascending</label><br>
                 <input type="radio" name="tp4" value="7" id="tp4d">
