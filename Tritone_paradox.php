@@ -43,6 +43,8 @@
                 <a href="Timbre_illusion.html">Timbre Illusion</a>
                 <a href="DPOAE.html">DPOAE</a>
                 <a href="Continuity_illusion.html">Continuity Illusion</a>
+                <a href="Timing_seq.html">Timing and Sequence Perception</a>
+                <a href="Galloping.html">Galloping Rhythm</a>
                 <a href="Interleaved_melodies.php">Interleaved Melodies</a>
                 <a href="Binaural_beats.html">Binaural Beats</a>
             </div>
@@ -126,25 +128,25 @@
 
         <div class="poll">
             <form action="tp.php" method="POST">
-                <span>Tritone set 1:</span><br>
+                <span>Tone 1:</span><br>
                 <input type="radio" name="tp1" value="0" id="tp1a" required>
                 <label for="tp1a">Ascending</label><br>
                 <input type="radio" name="tp1" value="1" id="tp1d">
                 <label for="tp1d">Descending</label><br>
                 <br>
-                <span>Tritone set 2:</span><br>
+                <span>Tone 2:</span><br>
                 <input type="radio" name="tp2" value="2" id="tp2a" required>
                 <label for="tp2a">Ascending</label><br>
                 <input type="radio" name="tp2" value="3" id="tp2d">
                 <label for="tp2d">Descending</label><br>
                 <br>
-                <span>Tritone set 3:</span><br>
+                <span>Tone 3:</span><br>
                 <input type="radio" name="tp3" value="4" id="tp3a" required>
                 <label for="tp3a">Ascending</label><br>
                 <input type="radio" name="tp3" value="5" id="tp3d">
                 <label for="tp3d">Descending</label><br>
                 <br>
-                <span>Tritone set 4:</span><br>
+                <span>Tone 4:</span><br>
                 <input type="radio" name="tp4" value="6" id="tp4a" required>
                 <label for="tp4a">Ascending</label><br>
                 <input type="radio" name="tp4" value="7" id="tp4d">
