@@ -1,6 +1,8 @@
 <?php
     include 'db.php';
 
+    echo 'Unexpected input <br><br>';
+
     session_start();
 
     $consent = $_POST["consent"];

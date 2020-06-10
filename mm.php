@@ -1,6 +1,8 @@
 <?php
     include 'db.php';
     
+    echo 'Unexpected input <br><br>';
+    
     session_start();
     $id = $_SESSION['id'];
     $mm = $_POST["mm"];
