@@ -10,38 +10,23 @@
     $handedness = $_POST["handedness"];
     $training = $_POST["training"];
 
-    /*
-    $sql = "SELECT * FROM surveyresult";
-    $stmt = $pdo->prepare($sql);
-    $stmt->execute();
-    $rowCount = $stmt->rowCount();
-    $details = $stmt->fetch();
+    if($consent!=0){
+        $query = "INSERT INTO surveyresult VALUES (default, $consent, $age, $handedness, $training) RETURNING id";
+        $stmt = $pdo->prepare($query);
+        $stmt->execute();
+        $details = $stmt->fetch(PDO::FETCH_ASSOC);
+        $id = $details["id"];
 
-    print_r($details);
-   */
-
-    //Insert to db and print to screen
-    /*$query = "INSERT INTO surveyresult VALUES (default, $consent, $age, $handedness, $training) RETURNING id";
-    $result = pg_query($query);
-    while ($row = pg_fetch_array($result)){
-        $id = $row['id'];
-    }*/
-    $query = "INSERT INTO surveyresult VALUES (default, $consent, $age, $handedness, $training) RETURNING id";
-    $stmt = $pdo->prepare($query);
-    $stmt->execute();
-    $details = $stmt->fetch(PDO::FETCH_ASSOC);
-    $id = $details["id"];
-
-    if ($consent == 0){
-        $id = 1;
-    }
-    else{
-        //Insert to other table
+        //Fill pollresult table
         $query = "INSERT INTO pollresult (id) VALUES ($id)";
         $stmt = $pdo->prepare($query);
         $stmt->execute();
     }
+    else{
+        $id = 0;
+    }
 
+    $_SESSION['consent'] = $consent;
     $_SESSION['id'] = $id;
     $_SESSION['oiflag'] = 0;
     $_SESSION['tpflag'] = 0;
