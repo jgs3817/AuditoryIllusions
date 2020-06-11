@@ -33,7 +33,7 @@
     $id = $details["id"];
 
     if ($consent == 0){
-        $id = 0;
+        $id = 1;
     }
 
     $_SESSION['id'] = $id;
