@@ -32,12 +32,15 @@
     $details = $stmt->fetch(PDO::FETCH_ASSOC);
     $id = $details["id"];
 
+    if ($consent == 0){
+        $id = 0;
+    }
+
     $_SESSION['id'] = $id;
     $_SESSION['oiflag'] = 0;
     $_SESSION['tpflag'] = 0;
     $_SESSION['mmflag'] = 0;
     $_SESSION['imflag'] = 0;
-
 
     //Insert to other table
     /*$db = pg_connect("host=localhost port=5432 dbname=neusense user=neusenseuser password=password");
