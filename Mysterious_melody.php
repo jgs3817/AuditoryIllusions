@@ -9,6 +9,7 @@
         $TP = $_SESSION['TP'];
         $OMDHAF = $_SESSION['OMDHAF'];
         $mmans = $_SESSEION['mmans'];
+        echo $mmans;
     }
 ?>
 
