@@ -64,7 +64,7 @@
                     myAudio=document.getElementById('im');
                     myAudio.addEventListener('canplaythrough', function() {
                     if(this.currentTime < 30){this.currentTime = 30;}
-                    this.play();
+                    //this.play();
                     });
                 </script>
             <?php } ?>

@@ -69,11 +69,11 @@
                     myAudio=document.getElementById('mm');
                     myAudio.addEventListener('canplaythrough', function() {
                     if(this.currentTime < 34){this.currentTime = 34;}
-                    this.play();
+                    //this.play();
                     });
                 </script>
             <?php } ?>
-            
+
             <br>
             <br>
             <b>What does this tell us about human hearing?</b>
