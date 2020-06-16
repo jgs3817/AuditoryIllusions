@@ -127,7 +127,9 @@
             <?php } ?>
 
                 <?php 
-                if($_SESSION['mmflag']==1){ echo "<br>Correct answer: The Entertainer<br>Your answer: " . $mmans;
+                if($_SESSION['mmflag']==1){ 
+                    echo "<br>Correct answer: The Entertainer<br>";
+                    echo "Your answer: "; echo $mmans;
                 ?>
                     <div id="piechart"></div>
                     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
