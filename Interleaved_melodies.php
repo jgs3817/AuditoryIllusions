@@ -7,6 +7,7 @@
         $im0 = $_SESSION['im0'];
         $im1 = $_SESSION['im1'];
         $im2 = $_SESSION['im2'];
+        $imans = $_SESSION['imans'];
     }
 ?>
 
@@ -120,6 +121,7 @@
         </div>
 
         <div class="poll">
+                <?php if($_SESSION['imflag']==0){ ?>
                 <span>Can you identify the correct melodies?</span><br>
                 <form action="im.php" method="POST">
                     <input type="radio" name="im" value="0" id="im0" required>
@@ -133,9 +135,10 @@
 
                     <input type="submit" value="Submit" class="submit">
                 </form>
+                <?php } ?>    
 
                 <?php 
-                if($_SESSION['imflag']==1){ echo "<br>Correct answer:<br>Twinkle Twinkle Little Star & Yankee Doodle";
+                if($_SESSION['imflag']==1){ echo "<br>Correct answer:<br>Twinkle Twinkle Little Star & Yankee Doodle<br><br> Your answer:<br>" . $imans . '<br>';
                 ?>
                     <div id="piechart"></div>
                     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
