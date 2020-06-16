@@ -59,7 +59,7 @@
             Listen to our recreation of the illusion here.
             <br>
             <br>
-                <audio id='mm' controls>
+                <audio id='mm' preload="auto" controls>
                     <source src="sound_files/mysterious_melody.mp3" type="audio/mpeg">
                 </audio>
             <br>
