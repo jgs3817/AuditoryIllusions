@@ -36,7 +36,8 @@
     $_SESSION['mmflag'] = 1;
     $_SESSEION['mmans'] = $ans;
 
-    header('Location: Mysterious_melody.php');
+    echo $_SESSEION['mmans']; 
+    //header('Location: Mysterious_melody.php');
 
     function countEachMM($which,$pdo){
         $query = "SELECT COUNT(mm) FROM pollresult WHERE mm={$which}";
