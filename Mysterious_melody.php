@@ -69,7 +69,7 @@
                 <script>
                     myAudio=document.getElementById('mm');
                     myAudio.addEventListener('canplaythrough', function() {
-                    this.currentTime = 35;
+                    if(this.currentTime < 35){this.currentTime = 35;}
                     this.play();
                     });
                 </script>
