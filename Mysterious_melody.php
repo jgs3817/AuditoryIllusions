@@ -9,7 +9,6 @@
         $TP = $_SESSION['TP'];
         $OMDHAF = $_SESSION['OMDHAF'];
         $mmans = $_SESSION['mmans'];
-        echo $mmans;
     }
 ?>
 
@@ -148,7 +147,7 @@
                             ]);
 
                             var options = {
-                                'title': 'Results',
+                                //'title': 'Results',
                                 'titleTextStyle': {color:'#f2f2f2',fontSize:17, fontName:'Lato'},
                                 'colors': ['#D52345', '#228CD5', '#23D5B3','#e8e227'],
                                 'width':350, 'height':300, 
