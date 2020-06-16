@@ -8,6 +8,7 @@
         $HBS = $_SESSION['HBS'];
         $TP = $_SESSION['TP'];
         $OMDHAF = $_SESSION['OMDHAF'];
+        $mmans = $_SESSEION['mmans'];
     }
 ?>
 
@@ -106,6 +107,7 @@
 
 
         <div class="poll">
+            <?php if($_SESSION['mmflag']==0){ ?>
                 <span>Can you identify the correct melody?</span><br>
                 <form action="mm.php" method="POST">
                     <input type="radio" name="mm" value="0" id="TTLS" required>
@@ -122,9 +124,10 @@
 
                     <input type="submit" value="Submit" class="submit">
                 </form>
+            <?php } ?>
 
                 <?php 
-                if($_SESSION['mmflag']==1){ echo "<br>Correct answer: The Entertainer";
+                if($_SESSION['mmflag']==1){ echo "<br>Correct answer: The Entertainer<br>Your answer: " . $mmans;
                 ?>
                     <div id="piechart"></div>
                     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
