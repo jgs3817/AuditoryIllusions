@@ -59,10 +59,21 @@
             Listen to our recreation of the illusion here.
             <br>
             <br>
-                <audio controls>
+                <audio id='mm' controls>
                     <source src="sound_files/mysterious_melody.mp3" type="audio/mpeg">
                 </audio>
             <br>
+            Please resume the audio from 0:35 after completing the poll.
+                <?php if($_SESSION['mmflag']==1){ ?>
+                    You have listened to the audio.
+                <script>
+                    myAudio=document.getElementById('mm');
+                    myAudio.addEventListener('canplaythrough', function() {
+                    this.currentTime = 35;
+                    this.play();
+                    });
+                </script>
+                <?php } ?>
             <br>
             <br>
             <b>What does this tell us about human hearing?</b>
