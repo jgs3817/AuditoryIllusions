@@ -55,7 +55,7 @@
             <p>
                 <b>What is it?</b>
                 <br>
-                In this illusion, you will hear a sequence of alternating tones in each ear. 
+                In this illusion, you will hear a sequence of alternating tones in each ear. This illusion should be heard with headphones.
                 <br>
                 <br>
                 <audio controls>
