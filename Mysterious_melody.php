@@ -128,7 +128,7 @@
 
                 <?php 
                 if($_SESSION['mmflag']==1){ 
-                    echo "<br>Correct answer: The Entertainer<br>";
+                    echo "<br>Correct answer: The Entertainer<br><br>";
                     echo "Your answer: " . $mmans . '<br>';
                 ?>
                     <div id="piechart"></div>
