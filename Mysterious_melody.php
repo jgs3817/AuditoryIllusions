@@ -63,7 +63,8 @@
                     <source src="sound_files/mysterious_melody.mp3" type="audio/mpeg">
                 </audio>
             <br>
-                <?php if($_SESSION['mmflag']==1){ ?>
+
+            <?php if($_SESSION['mmflag']==1){ ?>
                 <script>
                     myAudio=document.getElementById('mm');
                     myAudio.addEventListener('canplaythrough', function() {
@@ -71,7 +72,8 @@
                     this.play();
                     });
                 </script>
-                <?php } ?>
+            <?php } ?>
+            
             <br>
             <br>
             <b>What does this tell us about human hearing?</b>

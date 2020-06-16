@@ -55,9 +55,20 @@
             Firstly, two melodies are played simultaneously. Each subsequent note comes from the other melody (for example if there is melody A and melody B, the note order will go: A B A B A…). Afterwards, the two melodies are played simultaneously again but the pitch range of one of the melodies has been shifted. You might find it is much easier to identify the individual melodies the second time. 
             <br>
             <br>
-            <audio controls>
+            <audio id='im' preload="auto" controls>
                 <source src="sound_files/interleaved_melodies.mp3" type="audio/mpeg">
             </audio>
+
+            <?php if($_SESSION['imflag']==1){ ?>
+                <script>
+                    myAudio=document.getElementById('im');
+                    myAudio.addEventListener('canplaythrough', function() {
+                    if(this.currentTime < 30){this.currentTime = 30;}
+                    this.play();
+                    });
+                </script>
+            <?php } ?>
+
             <br>
             <br>
             <br>
