@@ -34,10 +34,9 @@
 
     setMM($TTLS, $HBS, $TP, $OMDHAF);
     $_SESSION['mmflag'] = 1;
-    $_SESSEION['mmans'] = $ans;
+    $_SESSION['mmans'] = $ans;
 
-    echo $_SESSEION['mmans']; 
-    //header('Location: Mysterious_melody.php');
+    header('Location: Mysterious_melody.php');
 
     function countEachMM($which,$pdo){
         $query = "SELECT COUNT(mm) FROM pollresult WHERE mm={$which}";

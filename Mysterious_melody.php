@@ -8,8 +8,7 @@
         $HBS = $_SESSION['HBS'];
         $TP = $_SESSION['TP'];
         $OMDHAF = $_SESSION['OMDHAF'];
-        $mmans = $_SESSEION['mmans'];
-        echo $mmans;
+        $mmans = $_SESSION['mmans'];
     }
 ?>
 
