@@ -58,9 +58,19 @@
                 In this illusion, you will hear a sequence of alternating tones in each ear. This illusion should be heard with headphones.
                 <br>
                 <br>
-                <audio controls>
+                <audio id="octave"  controls>
                     <source src="sound_files/octave_illusion.mp3" type="audio/mpeg">
                 </audio>
+
+                <?php if($_SESSION['oiflag']==1){ ?>
+                <script>
+                    myAudio=document.getElementById('octave');
+                    myAudio.addEventListener('canplaythrough', function() {
+                    this.currentTime = 35;
+                    this.play();
+                    });
+                </script>
+                <?php } ?>
                 <br>
                 <br>
                 <br>
