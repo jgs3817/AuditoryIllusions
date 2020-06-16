@@ -155,7 +155,7 @@
                             ]);
 
                             var options = {
-                                'title': 'Results',
+                                //'title': 'Results',
                                 'titleTextStyle': {color:'#f2f2f2',fontSize:17, fontName:'Lato'},
                                 'colors': ['#23D5B3', '#D52345', '#228CD5'],
                                 'width':350, 'height':300, 
