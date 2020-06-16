@@ -55,8 +55,7 @@
             <p>
                 <b>What is it?</b>
                 <br>
-                <br>
-                In this illusion, you will hear a sequence of alternating tones in each ear. 
+                In this illusion, you will hear a sequence of alternating tones in each ear. This illusion should be heard with headphones.
                 <br>
                 <br>
                 <audio controls>
@@ -67,7 +66,6 @@
                 <br>
                 <b>How does it work? </b>
                 <br>
-                <br>
                 It is likely that what you heard is different from the actual sound pattern.
                 Most often, people hear a repeating high tone in one ear and a repeating low tone in the other. 
                 Other people report hearing different patterns, such as a periodic reversal of tones in each ear; studies show that left handed people are more likely to experience these variations<sup>1</sup>.
@@ -77,7 +75,7 @@
                 <br>
                 <br>
                 <figure>
-                    <img src="img/oct1.png">
+                    <img src="img/oct1-inverse.png">
                     <figcaption>Figure 1: The top two scores shows the pattern played to the left and right ears. The second set of scores demonstrated the most common perception.</figcaption>
                 </figure>
                 <br>
@@ -87,13 +85,11 @@
                 <br>
                 <b>Is this used anywhere?</b>
                 <br>
-                <br>
                 The octave illusion gave rise to further studies on the ‘what’ and ‘where’ pathways. Functional MRI studies have sought to determine the specific location of these pathways and subsequently, better understand neural sound processing. 
                 <br>
                 <br>
                 <br>
                 <b>What is in the detailed research? </b>
-                <br>
                 <br>
                 A 2018 study in Tokyo looked at identifying structures in the brain that are responsible for the illusory perception of the octave illusion. 
                 <br>
@@ -107,7 +103,7 @@
                 A1 is most likely responsible for detecting changes in pitch and this has been established in previous studies. 
                 <br>
                 <figure>
-                    <img src="img/oct2.png">
+                    <img src="img/oct2-inverse.png">
                     <figcaption>Figure 2: Depicts the auditory cortex.</figcaption>
                 </figure>
                 <br>
@@ -137,7 +133,6 @@
                 <br>
                 <br>
                 <b>References</b>
-                <br>
                 <ol>
                     <li> Diana Deutsch, 1983, The Octave Illusion in relation to handedness and familial handedness background, Neuropsychologia</li>
                     <li>D Deutsch. P Roll., 1976, Separate “What” and “Where” Decision Mechanisms In Processing a Dichotic Tonal Sequence, Journal of Experimental Psychology: Human Perception and Performance</li>
@@ -171,8 +166,8 @@
                         function drawChart() {
                             var data = google.visualization.arrayToDataTable([
                             ['Results', 'Responses'],
-                            ['Left ear', <?php echo $left; ?>],
-                            ['Right ear', <?php echo $right; ?>],
+                            ['Left', <?php echo $left; ?>],
+                            ['Right', <?php echo $right; ?>],
                             ['Unclear', <?php echo $unclear; ?>]
                             ]);
 
