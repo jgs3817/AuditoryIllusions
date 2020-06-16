@@ -8,6 +8,7 @@
         $im1 = $_SESSION['im1'];
         $im2 = $_SESSION['im2'];
         $imans = $_SESSION['imans'];
+        echo $imans;
     }
 ?>
 
