@@ -149,7 +149,7 @@
                             var options = {
                                 //'title': 'Results',
                                 'titleTextStyle': {color:'#f2f2f2',fontSize:17, fontName:'Lato'},
-                                'colors': ['#D52345', '#228CD5', '#23D5B3','#e8e227'],
+                                'colors': ['#D52345', '#228CD5', '#23D5B3','#d5b723'],
                                 'width':350, 'height':300, 
                                 'pieHole':0.4,
                                 'pieSliceText':'none',
