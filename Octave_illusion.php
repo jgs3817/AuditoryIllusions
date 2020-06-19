@@ -142,7 +142,7 @@
         </div>
 
         <div class="poll">
-                <span>In which ear do you hear the high tones?</span><br>
+                <br><span>In which ear do you hear the high tones?</span><br>
                 <form action="oi.php" method="POST">
                     <input type="radio" name="oi" value="0" id="left" required>
                     <label for="left">Left ear</label><br>
