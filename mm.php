@@ -33,8 +33,8 @@
     }
 
     setMM($TTLS, $HBS, $TP, $OMDHAF);
-    $_SESSION['mmflag'] = 1;
     $_SESSION['mmans'] = $ans;
+    $_SESSION['mmflag'] = 1;
 
     header('Location: Mysterious_melody.php');
 
