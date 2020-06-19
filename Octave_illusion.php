@@ -71,7 +71,7 @@
                 Other people report hearing different patterns, such as a periodic reversal of tones in each ear; studies show that left handed people are more likely to experience these variations<sup>1</sup>.
                 <br>
                 <br>
-                The real sound pattern is presented below along with the most common perception. 
+                <!--The real sound pattern is presented below along with the most common perception. 
                 <br>
                 <br>
                 <figure>
@@ -83,7 +83,7 @@
                 <br>
                 <br>
                 <br>
-                <b>Is this used anywhere?</b>
+                --><b>Is this used anywhere?</b>
                 <br>
                 The octave illusion gave rise to further studies on the ‘what’ and ‘where’ pathways. Functional MRI studies have sought to determine the specific location of these pathways and subsequently, better understand neural sound processing. 
                 <br>
