@@ -186,6 +186,7 @@
         }
     }
     
+    /*
     // Display percentage values
     for($i=0; $i<8; $i++){
         for($j=0; $j<3; $j++){
@@ -195,6 +196,7 @@
             }
         }
     }
+    */
 
     // Finding the three lowest percentages between 0% and 15%
     $noMin = 3;
