@@ -198,11 +198,11 @@
     }
     */
 
-    // Finding the three lowest percentages between 0% and 15%
+    // Finding the three lowest percentages between 85% and 100%
     $noMin = 3;
-    $firstMin = 100;
-    $secondMin = 100;
-    $thirdMin = 100;
+    $firstMin = 0;
+    $secondMin = 0;
+    $thirdMin = 0;
     $speciali = array(-1,-1,-1);
     $specialj = array(-1,-1,-1);
     $specialk = array(-1,-1,-1);
@@ -210,9 +210,9 @@
     for($i=0; $i<8; $i++){
         for($j=0; $j<3; $j++){
             for($k=0; $k<$k_loop[$j]; $k++){
-                if($tpres[$i][$j][$k]>0 && $tpres[$i][$j][$k]<15){
+                if($tpres[$i][$j][$k]>85 && $tpres[$i][$j][$k]<100){
                     $count++;
-                    if($tpres[$i][$j][$k] < $firstMin){
+                    if($tpres[$i][$j][$k] > $firstMin){
                         $thirdMin = $secondMin;
                         $secondMin = $firstMin;
                         $firstMin = $tpres[$i][$j][$k];
@@ -220,14 +220,14 @@
                         $specialj[0] = $j;
                         $specialk[0] = $k;
                     }
-                    elseif($tpres[$i][$j][$k] < $secondMin){
+                    elseif($tpres[$i][$j][$k] > $secondMin){
                         $thirdMin = $secondMin;
                         $secondMin = $tpres[$i][$j][$k];
                         $speciali[1] = $i;
                         $specialj[1] = $j;
                         $specialk[1] = $k;
                     }
-                    elseif($tpres[$i][$j][$k] < $thirdMin){
+                    elseif($tpres[$i][$j][$k] > $thirdMin){
                         $thirdMin = $tpres[$i][$j][$k];
                         $speciali[2] = $i;
                         $specialj[2] = $j;
