@@ -4,13 +4,11 @@
 <?php
     session_start();
     if($_SESSION['mmflag']==1){
-        echo "Poll answered";
         $TTLS = $_SESSION['TTLS'];
         $HBS = $_SESSION['HBS'];
         $TP = $_SESSION['TP'];
         $OMDHAF = $_SESSION['OMDHAF'];
         $mmans = $_SESSION['mmans'];
-        echo $mmans;
     }
 ?>
 
